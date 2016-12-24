@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="max_markers_before_GC" android:defaultValue="500" android:numeric="integer" android:hint="500" android:title="Max number of markers on map before GC" android:summary="Lower for low end devices, Higher for high end devices" />
+</PreferenceScreen>
